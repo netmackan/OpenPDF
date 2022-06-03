@@ -5,7 +5,7 @@
 
     <groupId>com.github.librepdf</groupId>
     <artifactId>openpdf-parent</artifactId>
-    <version>1.3.29-SNAPSHOT</version> <!-- artifact.version -->
+    <version>1.3.29-SNAPSHOT-noelim</version> <!-- artifact.version -->
     <packaging>pom</packaging>
 
     <!-- please run mvn tidy:pom once in a while -->
@@ -307,7 +307,7 @@
                 <artifactId>maven-repository-plugin</artifactId>
                 <version>${maven-repository-plugin.version}</version>
             </plugin>
-            <!-- GPG signing config -->
+            <!-- GPG signing config
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
@@ -321,7 +321,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin> -->
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
